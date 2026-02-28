@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact AluMaster | Request Quote</title>
+<meta name="description" content="Contact AluMaster for premium aluminium windows and doors. Send your enquiry directly via WhatsApp.">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/script.js"></script>
+</head>
+<body>
+
+<header>
+<div class="container" style="display:flex;justify-content:space-between;align-items:center;">
+<div class="logo">ALUMASTER</div>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="projects.html">Projects</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+</div>
+</header>
+
+<section class="section">
+<div class="container">
+<h1 style="text-align:center;margin-bottom:40px;">Request a Premium Quote</h1>
+
+<form onsubmit="event.preventDefault(); sendToWhatsApp();">
+
+<input type="text" id="name" placeholder="Full Name" required>
+<input type="tel" id="phone" placeholder="Phone Number" required>
+
+<select id="service">
+<option>Aluminium Windows</option>
+<option>Aluminium Doors</option>
+<option>Custom Fabrication</option>
+<option>Installation</option>
+<option>Commercial Project</option>
+</select>
+
+<textarea id="message" rows="5" placeholder="Tell us about your project"></textarea>
+
+<button class="btn btn-primary" type="submit">Send Enquiry via WhatsApp</button>
+
+</form>
+
+</div>
+</section>
+
+<footer>
+<div class="container">
+<h3>AluMaster</h3>
+<p>Premium Aluminium Windows & Doors Manufacturer</p>
+<p>Call: +27 78 346 8671</p>
+</div>
+</footer>
+
+<a href="https://wa.me/27783468671" class="whatsapp-float">💬</a>
+
+</body>
+</html>
