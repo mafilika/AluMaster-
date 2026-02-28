@@ -12,3 +12,10 @@ function sendToWhatsApp() {
 
     window.open(url, '_blank').focus();
 }
+
+const toggle = document.getElementById("menu-toggle");
+const nav = document.getElementById("nav");
+
+toggle.addEventListener("click", function() {
+    nav.classList.toggle("active");
+});
